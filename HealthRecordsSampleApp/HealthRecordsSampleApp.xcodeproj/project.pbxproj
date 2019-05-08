@@ -13,6 +13,7 @@
 		2FA8DCF022156E2200F00985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA8DCEF22156E2200F00985 /* Assets.xcassets */; };
 		2FA8DCF322156E2200F00985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA8DCF122156E2200F00985 /* LaunchScreen.storyboard */; };
 		2FA8DD012215710700F00985 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA8DD002215710700F00985 /* HealthKit.framework */; };
+		2FDC5B972282DDE800F389FD /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC5B962282DDE800F389FD /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2FA8DCF422156E2200F00985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FA8DCFA22156E4100F00985 /* HealthRecordsSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthRecordsSampleApp.entitlements; sourceTree = "<group>"; };
 		2FA8DD002215710700F00985 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		2FDC5B962282DDE800F389FD /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				2FA8DCEF22156E2200F00985 /* Assets.xcassets */,
 				2FA8DCF122156E2200F00985 /* LaunchScreen.storyboard */,
 				2FA8DCF422156E2200F00985 /* Info.plist */,
+				2FDC5B962282DDE800F389FD /* Logger.swift */,
 			);
 			path = HealthRecordsSampleApp;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FA8DCEB22156E2000F00985 /* ViewController.swift in Sources */,
+				2FDC5B972282DDE800F389FD /* Logger.swift in Sources */,
 				2FA8DCE922156E2000F00985 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

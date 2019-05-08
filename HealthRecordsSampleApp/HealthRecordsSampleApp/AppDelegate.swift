@@ -3,7 +3,6 @@
 //  HealthRecordsSampleApp
 //
 //  Created by Vijay Godse on 2/14/19.
-//  Copyright © 2019 iOS dev 7. All rights reserved.
 //
 
 import UIKit
